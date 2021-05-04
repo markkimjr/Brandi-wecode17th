@@ -23,7 +23,7 @@ https://sadmin.brandi.co.kr/login
 
 ## 프로젝트 진행 방식
 - Trello, Notion, Slack 앱을 활용해 Scrum 방식으로 진행
-- Postman을 사용해 API문서 작성, API endpoint testing
+- Postman을 사용해 API문서 작성, API endpoint testing (https://documenter.getpostman.com/view/14808954/Tz5wVuBV)
 
 ## 내가 한 일들
 https://velog.io/@markkimjr/Brandi-Internship
