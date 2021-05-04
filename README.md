@@ -1,88 +1,35 @@
-# Brandi Internship
 
-<br>
+# 브랜티 인턴십
+브랜디는 여성 패션의 모든 것을 담은 라이프 쇼핑 이커머스 플랫폼 입니다. 한달동안 브랜디의 서비스 웹사이트랑 관리자 윕사이트를 참고하여 팀 프로젝트를 진행하였습니다.
 
-# 🛠 Backend
-- project period : 21.03.15 ~ 21.04.09
-- team members : 5 Backend position
+https://www.brandi.co.kr/
 
-<br>
+https://sadmin.brandi.co.kr/login
 
-# About project
-- 해당 프로젝트는 Service와 Admin 부분 양쪽의 일부 기능을 구현한 프로젝트도 Service는 유저가 확인하는 페이지, Admin은 관리자 혹은 판매자가 확인하는 페이지 입니다.
-- Admin은 관리자(이하 master) 와 판매자(이하 seller)의 기능을 구분하여 구현하였습니다.
+## 프로젝트 기간
+2021.03.15(월) ~ 2021.04.9(금)
 
-<br>
+## 팀 구성
+### 백엔드
+- 김하성
+- 김채현
+- 송빈호 
+- 이지윤
+- 장성준
 
-# database modeling
-- by AqueryTool
+## 사용한 기술 스택
+- 프론트엔드: html, css, jsx, react
+- 백엔드: Python, Flask, MySQL, PyMySQL, AQueryTool, Git, AWS EC2, S3
 
-![brandi_ERD](https://user-images.githubusercontent.com/71021769/116836236-b7e2be80-ac00-11eb-96d5-ee0962e64b1d.png)
+## 프로젝트 진행 방식
+- Trello, Notion, Slack 앱을 활용해 Scrum 방식으로 진행
+- Postman을 사용해 API문서 작성, API endpoint testing
 
-
-
-<br>
-
-# 🛠 구현 기능 (check for mine)
-
-## API
-
-**Service**
-- [Service] [post] 회원가입&로그인
-- [Service] [get] Product list + filtering ✅
-- [Service] [get] Product detail + (해당 상품의 Q&A, 판매자의 다른 상품)
-- [Service] [post] Product detail에서 Q&A 달기
-- [Service] [get, post] 장바구니
-- [Service] [get, post] 주문하기
-- [Service] [get] Mypage - 주문 내역 ✅
-- [Service] [get] Mypage - 주문 상세 내역 ✅
-- [Service] [get] Mypage - Q&A 내역 ✅
-
-<br>
-
-**Admin**
-- [Admin] [post] seller 회원가입&로그인
-- [Admin] [get] [master] seller 계정 목록
-- [Admin] [get, patch] [seller] 본인 상세 정보 수정 ✅
-- [Admin] [get, patch] [master] seller 한명의 상세 정보 수정 ✅
-- [Admin] [patch] [master] seller의 상태 변경
-- [Admin] [get] [master] 주문 상세 관리
-- [Admin] [path] [master] 주문 상태 변경
-- [Admin] [get, post] [seller] 상품 등록
-
-<br>
-
-## AWS
-- RDS, EC2 : db 관리
-- S3 : 이미지 업로드 관리
-
-<br>
-
-## respone, request 관리
-- Error 함수화  ✅
-- response 함수화  ✅
-
-<br>
-
-## API document 제작
-- postman 을 활용한 API document 제작  ✅
-https://documenter.getpostman.com/view/14808954/Tz5wVuBV
-
-<br>
-
-## 이력관리
-- 점이력 법을 활용한 이력 관리
-
-<br>
-
-# 🛠 Technologies (Backend)
-- language : python 3.9
-- framework : flask
-- database connetor : pymysql
-- database : MySQL
-- image upload : boto3
-- AWS : RDS, S3
-- password hashing : bcrypt
-- token : JWT
-
-- Git, CORS
+## 내가 한 일들
+https://velog.io/@markkimjr/Brandi-Internship
+- 백엔드 팀원들이랑 같이 data 모델링 (AQueryTool 사용)
+- 유저 회원가입, 로그인 (서비스 유저랑 셀러) 기능 구현
+- 로그인 데코레이터 구현 기능 구현
+- 카트에 상품 담기 (Cart GET, POST, DELETE)
+- 관리자 웹사이트 셀러 상품 등록 (GET, POST) 기능 구현
+- 관리자 웹사이트 셀러 상품 수정 (GET, PATCH) 기능 구현
